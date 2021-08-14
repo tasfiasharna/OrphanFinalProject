@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/video_background"
+    tools:context=".VideosActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout2"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_demo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Demo Video"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/layout1"
+            android:background="@android:drawable/zoom_plate"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_moments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/menuitem_background"
+                android:text="Moments with Orphans"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout2"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_donate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Donate for Orphans"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout3"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_dreams"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Dream of an Orphan Child"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout4"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_happy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Orphan Kid's Some Happpiest Moments"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout5"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_heart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Orphans(Heart Touching Video)"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout6"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_laugh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Orphans Laugh Just Like Any Other Child"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout7"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_life"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Orphans Life"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout8"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_project"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Our Project"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/layout9"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_street"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Homeless Children"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

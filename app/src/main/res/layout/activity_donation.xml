@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reddy"
+    tools:context=".DonationActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+
+                >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WELCOME !!!"
+                        android:fontFamily="cursive"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Happiness doesn't result from what we get,but from what we give.(Ben Carson)"
+                android:fontFamily="cursive"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="40dp"/>
+<!--            android:layout_gravity="center"-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you want to Be Permanent Donator, Please Click Here:"
+                android:fontFamily="cursive"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btn_permanent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@color/colorPrimaryDark"
+                android:elevation="4dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Be a Permanent Donator"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you want to Donate now, Please Click Here:"
+                android:fontFamily="cursive"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:id="@+id/btn_donateNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@color/colorPrimaryDark"
+                android:elevation="4dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:layout_marginTop="20dp"
+                android:text="Donate Now"
+                android:textColor="#fff" />
+
+                </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

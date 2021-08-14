@@ -1,0 +1,352 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradiant"
+            android:scrollbars="none">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/natural"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/donor"
+                        app:civ_border_color="#cccccc"
+                        app:civ_border_width="2dp" />
+
+
+                    <TextView
+                        android:id="@+id/txt_name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:letterSpacing="0.025"
+                        android:text="USER NAME"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_volunteer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:letterSpacing="0.025"
+                        android:text="Donator"
+                        android:textColor="@android:color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/rounded_button"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="UPDATE PROFILE"
+                        android:textColor="@color/cardview_light_background" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/natural"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+
+                        <EditText
+                            android:id="@+id/txt_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginTop="25dp"
+                            android:hint="Name"
+                            android:inputType="text"
+                            android:padding="16dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+
+                        <EditText
+                            android:id="@+id/txt_cell"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="Contact No"
+                            android:inputType="phone"
+                            android:padding="16dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+
+                        <EditText
+                            android:id="@+id/txt_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="Address"
+                            android:inputType="text"
+                            android:padding="16dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+
+                        <EditText
+                            android:id="@+id/txt_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="Email"
+                            android:focusable="false"
+                            android:inputType="textEmailAddress"
+                            android:padding="16dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+
+                        <EditText
+                            android:id="@+id/txt_profession"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="Profession"
+
+                            android:inputType="text"
+                            android:padding="16dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+
+                    <!--                    <LinearLayout-->
+
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="10dp"-->
+                    <!--                        android:orientation="horizontal"-->
+                    <!--                        android:padding="5dp">-->
+
+
+                    <!--                        <EditText-->
+                    <!--                            android:id="@+id/txt_cell"-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+
+                    <!--                            android:layout_weight="1"-->
+
+                    <!--                            android:hint="Contact No"-->
+                    <!--                            android:inputType="phone"-->
+                    <!--                            android:padding="16dp"-->
+                    <!--                            android:textColor="@color/colorPrimary"-->
+                    <!--                            android:textColorHint="@color/colorPrimary"-->
+                    <!--                            android:textSize="16dp" />-->
+                    <!--                    </LinearLayout>-->
+
+
+                    <!--                    <LinearLayout-->
+
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="10dp"-->
+                    <!--                        android:orientation="horizontal"-->
+                    <!--                        android:padding="10dp">-->
+
+
+                    <!--                        <EditText-->
+                    <!--                            android:id="@+id/txt_location"-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_weight="1"-->
+                    <!--                            android:hint="Address"-->
+                    <!--                            android:inputType="text"-->
+                    <!--                            android:padding="16dp"-->
+                    <!--                            android:textColor="@color/colorPrimary"-->
+                    <!--                            android:textColorHint="@color/colorPrimary"-->
+                    <!--                            android:textSize="16dp" />-->
+                    <!--                    </LinearLayout>-->
+
+
+                    <!--                    <LinearLayout-->
+
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="10dp"-->
+                    <!--                        android:orientation="horizontal"-->
+                    <!--                        android:padding="10dp">-->
+
+
+                    <!--                        <EditText-->
+                    <!--                            android:id="@+id/txt_email"-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_weight="1"-->
+                    <!--                            android:focusable="false"-->
+                    <!--                            android:hint="Email"-->
+                    <!--                            android:inputType="textEmailAddress"-->
+
+                    <!--                            android:padding="16dp"-->
+                    <!--                            android:textColor="@color/colorPrimary"-->
+                    <!--                            android:textColorHint="@color/colorPrimary"-->
+                    <!--                            android:textSize="16dp" />-->
+                    <!--                    </LinearLayout>-->
+
+
+                    <!--                    <LinearLayout-->
+
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_margin="10dp"-->
+                    <!--                        android:orientation="horizontal"-->
+                    <!--                        android:padding="10dp">-->
+
+
+                    <!--                        <EditText-->
+                    <!--                            android:id="@+id/txt_profession"-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:layout_weight="1"-->
+
+                    <!--                            android:hint="Profession"-->
+                    <!--                            android:inputType="text"-->
+                    <!--                            android:maxLength="12"-->
+
+                    <!--                            android:padding="16dp"-->
+                    <!--                            android:textColor="@color/colorPrimary"-->
+                    <!--                            android:textColorHint="@color/colorPrimary"-->
+                    <!--                            android:textSize="16dp" />-->
+                    <!--                    </LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|right"
+                        android:orientation="vertical">
+
+                        <!--                        <Button-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="55dp"-->
+                        <!--                            android:layout_marginTop="30dp"-->
+                        <!--                            android:backgroundTint="@color/colorPrimary"-->
+                        <!--                            android:onClick="btn_updateData"-->
+                        <!--                            android:text="Update"-->
+                        <!--                            android:textColor="@android:color/white"-->
+                        <!--                            android:textSize="18sp" />-->
+
+                        <TextView
+                            android:id="@+id/txt_update"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="30dp"
+                            android:background="@drawable/rounded_button"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="UPDATE"
+
+                            android:textColor="@color/cardview_light_background"
+                            android:textStyle="bold" />
+
+                        <!--                        android:onClick="btn_updateData"-->
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

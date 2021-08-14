@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Orphan House</string>
+
+    <string name="mission">Main streaming the Orphan, Semi Orphan, Borken family and Street children in the national building by providing care, support and protection through shelter, food, and education is our mission.  </string>
+    <string name="history">“You can not avoid orphan stories, child. Every story is an orphan story. We are all orphaned sooner or later.”
+
+― Gabrielle Zevin\n\n
+        “Orphan House” has started its journey with just 22 orphans at Chittagong in 22 August, 2019. Currently it has 20 volunteers on its own land with 50 orphans. There has a library with hundred of books open for all orphan child. Besides these, “Orphan House” has been conducted some unique and innovative programs such as completely free Meal, Medical aid, One glass of milk, Free academic education, Orphanage center, Free  admission coaching, Scholarship program, Photography for children, Women empowerment, Training center etc.
+    </string>
+    <string name="approach">Education: With education, children are able to accomplish many things. A solid education gives them the opportunity to change their future for the better.\n\n
+        Child Welfare: We believe that through education, each child is given a new perspective on how they see themselves and their community. Too often, these children are seen as burdens if they are orphaned, and they begin to think that their situation defines them.Our social workers provide sponsored orphan children  with psycho-social support, empowerment training, medical support, home-visits, and career guidance. Rather than focusing on only providing a child with an education, “Orphan House” strives to address all the needs of a child – physical, emotional, mental, social and spiritual.
+</string>
+    <string name="sponsor">The hope of “Orphan House” is that every child would have the opportunity to reach their full potential. As so many children have lost their parents , they need someone willing to stand with them and encourage them to pursue a brighter future ahead.\n\n
+
+Monthly sponsorship is a very tangible expression of love and support.  Since our affiliate staff and volunteers in “Orphan House” identifies children in their communities who need support, your donation is sure to have a direct and lasting impact. Only $25 monthly sponsorship provides education, medical care, food, cloths and others basic needs.\n\n
+
+We encourage sponsors to build a strong relationship with their children by exchanging letters and pictures with one another.\n
+</string>
+    <string name="touch">There are lots of ways to contribute to our cause, aside from monetary contributions. You could fundraise, host awareness events, or even just share on Facebook.  If you want more information about how you can help, please email us!
+</string>
+    <string name="touche">Connect with us on Social Media!</string>
+    <string name="touch1">Get Involved\n
+
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

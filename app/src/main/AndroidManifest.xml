@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tasfia.orphanhouse">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".NoticeDetailsActivity"></activity>
+        <activity android:name=".DonatorInfoActivity" />
+        <activity android:name=".AllSponsorActivity" />
+        <activity android:name=".AllSponsorDetailsActivity" />
+        <activity android:name=".AllDonationInfoDetailsActivity" />
+        <activity android:name=".AllDonationInfoActivity" />
+        <activity android:name=".AllConfirmationActivity" />
+        <activity android:name=".VolunteerRequestActivity" />
+        <activity android:name=".RequestActivity" />
+        <activity android:name=".CreateVolunteerNoticeActivity" />
+        <activity android:name=".AllNoticeListActivity" />
+        <activity android:name=".VolunteerWorkAssignActivity" />
+        <activity android:name=".AssignWorkDetailsActivity" />
+        <activity android:name=".VolunteerAssignWorkActivity" />
+        <activity android:name=".DonateHistoryListActivity" />
+        <activity android:name=".DonationHistoryDetailsActivity" />
+        <activity android:name=".AdminEditProfileActivity" />
+        <activity android:name=".AdminOwnProfileActivity" />
+        <activity android:name=".DonatorEditProfileActivity" />
+        <activity android:name=".DonatorOwnProfileActivity" />
+        <activity android:name=".ViewVolunteerProfile" />
+        <activity android:name=".DonatorProfileActivity" />
+        <activity android:name=".DonatorLogInActivity" />
+        <activity android:name=".VolunteerEditProfileActivity" />
+        <activity android:name=".VolunteerNoticeActivity" />
+        <activity android:name=".VolunteerWorkActivity" />
+        <activity android:name=".VolunteerOwnProfileActivity" />
+        <activity android:name=".VolunteerProfileActivity" />
+        <activity android:name=".VolunteerRegistrationActivity" />
+        <activity android:name=".VolunteerLogInActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".DonorDetailsActivity" />
+        <activity android:name=".AddDonatorActivity" />
+        <activity android:name=".ViewDonorDetailsActivity" />
+        <activity android:name=".ViewFeedbackActivity" />
+        <activity android:name=".PermanentDonatorActivity" />
+        <activity android:name=".DonationActivity" />
+        <activity android:name=".DonateActivity" />
+        <activity android:name=".CreateEventActivity" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".AdoptionChildActivity" />
+        <activity android:name=".OurVolunteersActivity" />
+        <activity android:name=".VolunteerDetailActivity" />
+        <activity android:name=".EditVolunteerActivity" />
+        <activity android:name=".AddVolunteerActivity" />
+        <activity android:name=".ViewVolunteerDetailsActivity" />
+        <activity android:name=".EditOrphanActivity" />
+        <activity android:name=".OrphanDetailActivity" />
+        <activity android:name=".ViewOrphanDetailsActivity" />
+        <activity android:name=".AddOrphanActivity" />
+        <activity android:name=".AdminRegistrationActivity" />
+        <activity android:name=".AdminDetailsActivity" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".AdoptionFormActivity" />
+        <activity android:name=".AdoptionRegistrationActivity" />
+        <activity android:name=".AdoptionLoginActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".VolunteersActivity" />
+        <activity android:name=".StaffDetailsActivity" />
+        <activity android:name=".ContactTouchActivity" />
+        <activity android:name=".ContactStaffActivity" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".WebTestActivity" />
+        <activity android:name=".AboutInfoDetailsActivity" />
+        <activity android:name=".ContactInfoActivity" />
+        <activity android:name=".SpnsorActivity" />
+        <activity android:name=".AboutInfoActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".MehandiFullScreenActivity" />
+        <activity android:name=".ProjectsFullScreenActivity" />
+        <activity android:name=".MomentsFullScreenActivity" />
+        <activity android:name=".CelebratingFullScreenActivity" />
+        <activity android:name=".ProjectsActivity" />
+        <activity android:name=".MomentsActivity" />
+        <activity android:name=".MehandiActivity" />
+        <activity android:name=".CelebratingActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".VideoDetailsActivity" />
+        <activity android:name=".VideosActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

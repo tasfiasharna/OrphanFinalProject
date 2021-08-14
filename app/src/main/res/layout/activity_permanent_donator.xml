@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/misty"
+    tools:context=".PermanentDonatorActivity">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Be a Permanent Donator"
+                    android:textSize="24sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="Name:"
+                    android:id="@+id/edtName"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textPersonName"
+                    />
+
+                <EditText
+                    android:id="@+id/edtAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:hint="Address"
+                    android:inputType="text" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:hint="City:"
+                    android:id="@+id/edtCity"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:inputType="text"
+                    />
+
+
+
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/edtProfession"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:hint="Profession"
+                    android:inputType="text" />
+
+
+                <!--            <EditText-->
+                <!--                android:id="@+id/edtDate"-->
+                <!--                android:layout_width="fill_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginBottom="10dp"-->
+                <!--                android:layout_marginTop="10dp"-->
+                <!--                android:backgroundTint="@color/colorPrimaryDark"-->
+                <!--                android:hint="Date of Birth"-->
+                <!--                android:inputType="date" />-->
+
+                <!--            <EditText-->
+                <!--                android:id="@+id/edtVersity"-->
+                <!--                android:layout_width="fill_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginBottom="10dp"-->
+                <!--                android:layout_marginTop="10dp"-->
+                <!--                android:textSize="20sp"-->
+                <!--                android:backgroundTint="@color/colorPrimaryDark"-->
+                <!--                android:hint="Versity Name"-->
+                <!--                android:inputType="text" />-->
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+                    <!--                android:background="#e0e0e0"-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select Gender: "
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/grpGender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:checked="true"
+                            android:text="male"
+                            android:textColor="#154"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:checked="false"
+                            android:text="female"
+                            android:textColor="#154"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edtPhone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:hint="Contact No"
+                    android:inputType="phone" />
+
+
+                <!--            <LinearLayout-->
+                <!--                android:layout_width="fill_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+
+                <!--                android:orientation="vertical">-->
+                <!--                &lt;!&ndash;                android:background="#e0e0e0"&ndash;&gt;-->
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Age Category: "-->
+                <!--                    android:textColor="#000"-->
+                <!--                    android:textSize="20sp"-->
+                <!--                    android:textStyle="bold" />-->
+
+                <!--                <RadioGroup-->
+                <!--                    android:id="@+id/grpListen"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content">-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/facebook"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="true"-->
+                <!--                        android:text="Facebook"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/friends"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="Friends"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/newsPaper"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="NewsPaper"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/others"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="Others"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+
+                <!--                </RadioGroup>-->
+
+
+                <!--            </LinearLayout>-->
+                <!--            <EditText-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:textSize="20sp"-->
+                <!--                android:hint="Reason Of Your Volunteering:"-->
+                <!--                android:id="@+id/edtReason"-->
+                <!--                android:layout_marginTop="10dp"-->
+                <!--                android:layout_marginBottom="10dp"-->
+
+                <!--                android:inputType="textLongMessage"-->
+                <!--                />-->
+
+
+                <!--            <LinearLayout-->
+                <!--                android:layout_width="fill_parent"-->
+                <!--                android:layout_height="wrap_content"-->
+
+                <!--                android:orientation="vertical">-->
+                <!--                &lt;!&ndash;                android:background="#e0e0e0"&ndash;&gt;-->
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="Blood Group: "-->
+                <!--                    android:textColor="#000"-->
+                <!--                    android:textSize="20sp"-->
+                <!--                    android:textStyle="bold" />-->
+
+                <!--                <RadioGroup-->
+                <!--                    android:id="@+id/grpBlood"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content">-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/aPositive"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="true"-->
+                <!--                        android:text="A+"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/aNegative"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="A-"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/bPositive"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="B+"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/bNegative"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="B-"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/abPositive"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="AB+"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/abNegative"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="AB-"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/oPositive"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="O+"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/oNegative"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:checked="false"-->
+                <!--                        android:text="O-"-->
+                <!--                        android:textColor="#154"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textStyle="bold" />-->
+
+
+                <!--                </RadioGroup>-->
+
+
+                <!--            </LinearLayout>-->
+
+                <!--            <TextView-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:text="Image: "-->
+                <!--                android:textColor="#000"-->
+                <!--                android:textSize="20sp"-->
+                <!--                android:textStyle="bold" />-->
+
+
+
+
+                <!--            <ImageView-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="300dp"-->
+                <!--                android:id="@+id/imView"-->
+                <!--                android:scaleType="centerCrop"-->
+                <!--                android:layout_marginTop="10dp"  />-->
+
+
+
+                <!--            <Button-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="50dp"-->
+                <!--                android:id="@+id/btnChooseImage"-->
+                <!--                android:backgroundTint="@color/colorPrimary"-->
+                <!--                android:text="Choose Image"-->
+                <!--                android:textColor="@android:color/white"-->
+                <!--                android:textSize="20sp"-->
+
+                <!--                android:layout_marginTop="10dp"-->
+                <!--                />-->
+
+                <Button
+                    android:id="@+id/btnRegistration"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="Registration"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:layout_marginTop="80dp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/misty"
+    tools:context=".DonorDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="ID:"-->
+<!--                android:textSize="20sp"-->
+<!--                android:id="@+id/txtid"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                />-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textSize="20sp"
+                android:id="@+id/txtname"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:textSize="20sp"
+                android:id="@+id/txtgender"
+                android:layout_marginBottom="20dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textSize="20sp"
+                android:id="@+id/txtaddress"
+                android:layout_marginBottom="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City:"
+                android:textSize="20sp"
+                android:id="@+id/txtcity"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profession:"
+                android:textSize="20sp"
+                android:id="@+id/txtprofession"
+                android:layout_marginBottom="20dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Number:"
+                android:textSize="20sp"
+                android:id="@+id/txtcontactNo"
+                android:layout_marginBottom="20dp"
+                />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Date Of Birth:"-->
+<!--                android:textSize="20sp"-->
+<!--                android:id="@+id/txtdate"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                />-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textSize="20sp"
+                android:id="@+id/txtemail"
+                android:layout_marginBottom="20dp"
+                />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="From Where You Listen About Us:"-->
+<!--                android:textSize="20sp"-->
+<!--                android:id="@+id/txtlisten"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="The Reason of Your Volunteering:"-->
+<!--                android:textSize="20sp"-->
+<!--                android:id="@+id/txtreason"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Blood Group:"-->
+<!--                android:textSize="20sp"-->
+<!--                android:id="@+id/txtblood"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                />-->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
